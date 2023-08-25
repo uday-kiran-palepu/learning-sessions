@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        
+
+        <div class="main-container p-5">
+            <h1 class="main-heading mb-5">Add User</h1>
+
+            <form id="myForm">
+                <div class="mb-5">
+                    <label for="nameInput">Name</label>
+                    <br/>
+                    <input type="text" id="nameInput" class="form-control"/>
+                    <p class="error-message" id="nameErrorMessage"></p>
+                </div>
+                <div class="mb-5">
+                    <label for="emailInput">Email</label>
+                    <br/>
+                    <input type="text" id="emailInput" class="form-control"/>
+                    <p class="error-message" id="emailErrorMessage"></p>
+                </div>
+                
+                <div class="mb-3">
+                    <label>Working Status</label>
+                    <br/>
+                    <select id="status" class="form-control">
+                        <option value="Active" selected>Active</option>
+                        <option value="Inactive">Inactive</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <h6>Gender</h6>
+                    <input type="radio" id="genderMale" value="Male" name="gender"  checked/> 
+                    <label for="genderMale">Male</label>
+                    <input type="radio" id="genderFemale" value="Female" name="gender" /> 
+                    <label for="genderFemale">Female</label>
+                </div>
+
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+            
+        </div>
+
+        <!-- <div class="main-container">
+                <select name="" id="">
+                    <option value="Value1">Value1</option>
+                    <option value="Value2">Value2</option>
+                    <option value="Value3" selected>Value3</option>
+                    <option value="Value4">Value4</option>
+                </select>
+
+                <br/>
+            
+                <input type="radio" id="genderMale" value="Male" name="gender" checked/>
+                <input type="radio" id="genderFemale" value="Female" name="gender" />
+
+
+        </div> -->
+
+        
+
+
+
+        <script src="form.js"></script>
+    </body>
+</html>

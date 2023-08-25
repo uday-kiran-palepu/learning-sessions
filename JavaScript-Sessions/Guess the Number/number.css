@@ -1,0 +1,45 @@
+.first-section{
+    background-color: white;
+    text-align: center;
+}
+
+.first-section-img{
+    height:15%;
+    width:80%;
+}
+
+.game-info{
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.second-section{
+    background-color:rgb(41, 124, 219) ;
+    text-align: center;
+}
+
+.game-name{
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.question-image{
+    height: 90px;
+    width: 60px;
+    margin: 10px;
+}
+
+.input-element{
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.game-result{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}

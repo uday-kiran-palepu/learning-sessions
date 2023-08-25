@@ -1,0 +1,79 @@
+.todos-bg-container{
+    background-color: rgb(228, 232, 236);
+    height: 100vh;
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.todos-heading{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.todos-sub-heading{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.todos-input{
+    border: none;
+    width: 75%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.add-button{
+    border: none;
+    color: white;   
+    background-color: rgb(150, 53, 228);
+    border-radius: 8px;
+    width: 65px;
+    height: 40px;
+}
+
+.todos-list-container{
+    list-style-type: none;
+}
+
+.todos-checkbox{
+    width: 20px;
+    height: 20px;
+    margin-top:15px ;
+}
+
+.todo-item-container{
+    margin-top: 20px;
+}
+
+.label-container{
+    background-color: rgb(189, 220, 220);
+    border-left: 5px solid rgb(2, 77, 22) ;
+    border-radius: 8px;
+    margin-left: 10px;
+    width: 50%;
+    padding: 8px;
+    padding-top:12px ;
+
+}
+
+.checkbox-label{
+    color: black;
+    width: 90%;
+}
+
+.delete-icon {
+    padding: 10px;
+  }
+
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.checked{
+    text-decoration: line-through;
+}

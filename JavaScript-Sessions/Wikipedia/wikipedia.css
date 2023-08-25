@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    font-family:"Roboto";
+}
+
+.wikipedia-img{
+    height: 150px;
+    width: 150px;
+}
+
+.search-bar{
+    border-width: 1px;
+    height: 50px;
+    width: 30%;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.result-item{
+    margin: 10px;
+}
+
+.result-title{
+    font-size: 25px;
+}
+
+
+.result-url{
+    color: #006621;
+    text-decoration: none;
+}
+
+.result-description{
+    color: #444444;
+    font-size: 15px;
+    
+}

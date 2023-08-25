@@ -1,0 +1,18 @@
+.counter-bg-container{
+    background-color: aliceblue;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.counter-name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.counter-value{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+

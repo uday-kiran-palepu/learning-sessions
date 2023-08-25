@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bomb-bg-container{
+    background-color: aqua;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding: 25px;
+}
+
+.text-box{
+    width: 200px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.bomb-image{
+    width: 200px;
+    height: 200px;
+}
+
+.timer-text{
+    color: rgb(5, 0, 0);
+    font-size: 50px;
+    font-family: sans-serif;
+}
