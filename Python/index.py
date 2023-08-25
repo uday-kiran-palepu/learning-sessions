@@ -223,25 +223,25 @@
 #if sum > 15 print the even numbers from 0
 #if sum < 15 print the odd numbers from 1
 
-name1 = input()
-name2 = input()
+# name1 = input()
+# name2 = input()
 
-length1 = len(name1)
-length2 = len(name2)
+# length1 = len(name1)
+# length2 = len(name2)
 
-sum_lengths = length1 + length2
-print(sum_lengths)
+# sum_lengths = length1 + length2
+# print(sum_lengths)
 
-if sum_lengths > 15 :
-    for n in range(0, sum_lengths+1):
-        if n%2 == 0:
-            print(n)
-else:
-    count = 1
-    while count <= sum_lengths:
-        if count%2 == 1:
-            print(count)
-        count = count+1
+# if sum_lengths > 15 :
+#     for n in range(0, sum_lengths+1):
+#         if n%2 == 0:
+#             print(n)
+# else:
+#     count = 1
+#     while count <= sum_lengths:
+#         if count%2 == 1:
+#             print(count)
+#         count = count+1
 
 
 #We need to find out the lengths of given two strings and have to sum them and
